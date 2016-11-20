@@ -1,0 +1,12 @@
+name = "minym"
+license = "MIT"
+licenselink = "https://github.com/maqiv/minym/blob/master/LICENSE.md"
+description = "light and simple theme that with focus to the essential purpose to display articles without any distraction"
+homepage = "https://github.com/maqiv/minym/"
+tags = ["blog", "minimal", "clean"]
+features = ["fast"]
+min_version = 0.17
+
+[author]
+  name = "maqiv"
+  homepage = "https://b.maqiv.com"

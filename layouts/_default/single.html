@@ -1,0 +1,10 @@
+    {{ partial "header.html" . }}
+    
+    <header class="s_article_header">
+      <span class="s_article_header_title">{{ .Title }}</span><br/>
+      <span class="s_article_header_date" title="{{ .Date.Format "2006-01-02 03:04:05pm" }}">{ {{ .Date.Format "02_2006" }} }</span>
+    </header>
+    
+    {{ .Content }}
+    
+    {{ partial "footer.html" . }}

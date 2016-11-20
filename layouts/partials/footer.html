@@ -1,0 +1,20 @@
+    <hr/>
+    
+    <footer>
+      <div class="site_foot_l">
+        the world is some kind of <span class="c_italic">muh</span>.
+      </div>
+      <div class="site_foot_r">
+      <div class="site_foot_r0">
+        <a href="{{ .Site.BaseURL }}">home</a>
+        <a href="{{ .Site.BaseURL }}/about">about</a>
+        <a href="{{ .Site.BaseURL }}/info">info</a>
+        <a href="{{ .Site.BaseURL }}/else">else?</a>
+      </div>
+      <div class="site_foot_r1">
+        last update <span title="{{ dateFormat "2006-01-02 03:04:05pm" .Site.LastChange }}">{{ dateFormat "2006_01_02" .Site.LastChange }}</span>
+      </div>
+      </div>
+    </footer>
+  </body>
+</html>

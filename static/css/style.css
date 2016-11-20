@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css?family=Eczar|Proza+Libre'); */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+/**
+ * Main definitions
+ */
+
+body {
+  /* font-family: 'Eczar', serif;
+  font-family: 'Proza Libre', serif; */
+  font-family: 'EB Garamond', serif;
+}
+
+.site_title {
+  font-weight: bold;
+  text-align: right;
+}
+
+.site_foot_l {
+  float: left;
+  font-size: 9px;
+  position: absolute;
+  bottom: 0;
+}
+
+.site_foot_r {
+  float: right;
+  width: 20%;
+}
+
+.site_foot_r0 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.site_foot_r1 {
+  font-size: 9px;
+  text-align: right;
+}
+
+footer {
+  position: relative;
+  overflow: hidden;
+}
+
+.post_list {
+  margin: 15px 0 15px;
+}
+
+.c_italic {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr.fancy_line {
+  border: 0; 
+  height: 1px;
+  background-color: #D3D3D3;
+  margin-top: 0px;
+  /* background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); */
+}
+
+
+/**
+ * Single page definitions
+ */
+
+.s_article_header {
+  text-align: right;
+  padding-right: 3%;
+}
+
+.s_article_header_title {
+  font-size: 23px;
+  font-style: italic;
+}
+
+.s_article_header_date {
+  font-size: 11px;
+}

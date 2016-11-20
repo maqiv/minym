@@ -1,0 +1,13 @@
+    <header>
+      <div class="site_title">{{ .Site.Title }}</div>
+      <!-- <hr class="fancy_line" /> -->
+    </header>
+    <main class="post_list">
+      {{ range .Data.Pages }}
+        {{ if eq .Type "p" }}
+          <div class="post_list_item">
+            <span title="{{ .Date.Format "2006-01-02 03:04:05pm" }}">{{ .Date.Format "01_2006" }}</span> ~ <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </div>
+        {{ end }}
+      {{ end }}
+    </main>
