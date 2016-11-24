@@ -9,10 +9,11 @@ body {
   font-size: 17px;
 }
 
-.site_title {
+.site_title, .s_article_header {
   font-size: 23px;
   font-style: italic;
   text-align: right;
+  padding-right: 3%;
 }
 
 .site_foot_l {
@@ -75,16 +76,6 @@ hr.fancy_line {
 /**
  * Single page definitions
  */
-
-.s_article_header {
-  text-align: right;
-  padding-right: 3%;
-}
-
-.s_article_header_title {
-  font-size: 23px;
-  font-style: italic;
-}
 
 .s_article_header_date {
   font-size: 11px;
