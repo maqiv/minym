@@ -44,8 +44,12 @@ footer {
 }
 
 .footnotes {
-  font-size: 13px;
   padding-top: 15px;
+}
+
+.footnotes ol {
+  font-size: 13px;
+  margin-top: 0;
 }
 
 .post_list {
