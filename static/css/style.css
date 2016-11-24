@@ -6,6 +6,7 @@
 
 body {
   font-family: 'EB Garamond', serif;
+  font-size: 17px;
 }
 
 .site_title {
@@ -40,6 +41,11 @@ body {
 footer {
   position: relative;
   overflow: hidden;
+}
+
+.footnotes {
+  font-size: 13px;
+  padding-top: 15px;
 }
 
 .post_list {
