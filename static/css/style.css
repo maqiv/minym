@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
 
 /**
  * Main definitions
  */
 
 body {
-  font-family: 'EB Garamond', serif;
-  font-size: 18px;
+  font-family: 'Space Mono', serif;
+  font-size: 14px;
 }
 
 .site_title, .s_article_header {
@@ -30,6 +30,7 @@ body {
 
 .site_foot_r0 {
   display: flex;
+  margin-bottom: 7px;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -49,7 +50,7 @@ footer {
 }
 
 .footnotes ol {
-  font-size: 13px;
+  font-size: 11px;
   margin-top: 0;
 }
 
