@@ -81,3 +81,10 @@ hr.fancy_line {
 .s_article_header_date {
   font-size: 11px;
 }
+
+p code, li code, td code {
+  font-family: 'Courier', sans-serif;
+  font-size: 14px;
+  background: #EFEFEF;
+  padding: 2px 2px;
+}
