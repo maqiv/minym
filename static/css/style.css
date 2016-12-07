@@ -82,9 +82,17 @@ hr.fancy_line {
   font-size: 11px;
 }
 
-p code, li code, td code {
+code {
   font-family: 'Courier', sans-serif;
   font-size: 14px;
   background: #EFEFEF;
+}
+
+p code, li code, td code {
   padding: 2px 2px;
+}
+
+pre code {
+  padding: 10px 10px;
+  margin: 0px 10px;
 }
